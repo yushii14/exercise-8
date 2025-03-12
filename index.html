@@ -13,20 +13,25 @@ font-family: "Pacifico", cursive;
 font-size: 30px;
 background-color: aqua;
 }
-
+/** mobile phone**/
   @media screen and (max-width: 600px) {
    body {
         background-color: yellow;
-       
+     font-size: 0.75em;
       }
+    
     
     p, img {
     width: 100%;
-    display: block; 
+   height: auto;
 }
   }
-  
+  /** desktop **/
   @media screen and (min-width: 601px) {
+    body {
+      background-color: aqua;
+      font-size: 2em;
+    }
   
     p {
     width: 600px;
@@ -34,7 +39,7 @@ background-color: aqua;
 
 img {
     width: 800px;
-    display: block; 
+  height: auto;
 }
   }
 
